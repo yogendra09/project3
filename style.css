@@ -238,11 +238,11 @@ html,body{
 }
 #page2 p::after{
     position: absolute;
-    top: 64%;
-    left: 36%;
+    top: 62%;
+    left: 44%;
     content: " ";
-    height: 70px;
-    width: 220px;
+    height: 80px;
+    width: 180px;
     background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
     background-size: cover; 
 }
@@ -352,8 +352,8 @@ html,body{
 #page3-part2 h1::after{
     content: "";
     position: absolute;
-    top: 28%;
-    left: 30%;
+    top: 45%;
+    left: 20%;
     height: 15px;
     width: 190px;   
     background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
@@ -361,9 +361,11 @@ html,body{
 }
 #page3-part2 p{
     margin-top: 35px;
-    font-size: 20px;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.651);
     width: 95%;
-    line-height: 35px;
+
+  
     font-weight: 100;
 }
 #page3-bottom{
@@ -437,21 +439,24 @@ html,body{
     content: "";
     position: absolute;
     top: -8%;
-    left: 28%;
+    left: 26.5%;
     height: 75px;
     width: 125px;
     background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
     background-size: cover;
 }
 #page4-logo{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 1fr  1fr 1fr;
     position: relative;
     height: 75%;
-    width: 85%;
-    margin-left:6%;
-  
+    width: 70%;
+    margin-left:20%;
 }
 #page4-logo img{
-    height: 40px;
+   
+    height: 45px;
     margin-top: 100px;
     margin-left: 75px;
   
@@ -586,7 +591,7 @@ html,body{
   .swiper-slide p{
     font-family: cooper;
     text-align: center;
-    width: 75%;
+    width: 60%;
     font-size:60px;
     font-weight: 100;
   }
@@ -669,8 +674,8 @@ html,body{
 #bcp1-part1>h1::after{
     content: "";
     position: absolute;
-    left: 30%;
-    top: 52%;
+    left: 20%;
+    top: 75%;
     transform: translate(-50%,-50%);
     height: 70px;
     width: 200px;
