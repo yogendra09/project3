@@ -2,6 +2,10 @@
     font-family:cooper;
     src: url(./CooperLtBTWXXLight.ttf);
 }
+@font-face {
+    font-family:cooper;
+    src: url(./Gilroy-Regular.ttf);
+}
 *{
     margin: 0%;
     padding: 0%;
